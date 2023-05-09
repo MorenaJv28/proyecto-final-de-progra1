@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .formulario {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .formulario input[type="text"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .formulario button {
+        width: 100%;
+        padding: 10px;
+        background-color: #003C71;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: auto;
+    }
+</style>
+
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <img class="logo" src="https://th.bing.com/th/id/R.8ba969f7a029a933c767946d36a89289?rik=zNfGk6haYZrxJQ&riu=http%3a%2f%2fraices.edu.sv%2fimages%2fUNAB%2flogo-UNAB-VERTICAL-transparente_peq.png&ehk=EeZ9DjZ7hm9EiMpvchBFypGVgZ14BpYyxfAkNgqXjp4%3d&risl=&pid=ImgRaw&r=0" alt="Logo UNAB">
+
+        <div class="formulario">
+            <form method="post" action="Info_Estudiante">
+                <p>Introduce el Id del estudiante</p>
+                <input type="text" name="id" />
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>

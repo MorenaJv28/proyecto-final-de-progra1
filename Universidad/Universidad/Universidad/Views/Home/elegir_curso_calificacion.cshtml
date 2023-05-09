@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<head>
+	<title>base de datos universidad</title>
+	<style>
+		body {
+			background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+			background-color: #f5f5f5;
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			color: #003C71;
+			margin-top: 50px;
+		}
+
+		p {
+			text-align: center;
+			color: #666;
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+
+		button {
+			display: block;
+			margin: 20px auto;
+			padding: 12px 24px;
+			border: none;
+			border-radius: 4px;
+			background-color: #003C71;
+			color: #fff;
+			font-size: 16px;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+			button:hover {
+				background-color: #002b5c;
+			}
+
+		.logo {
+			display: block;
+			position: absolute;
+			top: 20px;
+			left: 20px;
+			max-width: 100px;
+			height: auto;
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="https://th.bing.com/th/id/R.8ba969f7a029a933c767946d36a89289?rik=zNfGk6haYZrxJQ&riu=http%3a%2f%2fraices.edu.sv%2fimages%2fUNAB%2flogo-UNAB-VERTICAL-transparente_peq.png&ehk=EeZ9DjZ7hm9EiMpvchBFypGVgZ14BpYyxfAkNgqXjp4%3d&risl=&pid=ImgRaw&r=0" alt="Logo" class="logo">
+
+		<form method="post" action="curso_Programacion">
+			<button>Calificaciones Programacion</button>
+		</form>
+
+		<form method="post" action="curso_Matematicas">
+			<button>Calificaciones Matematicas</button>
+		</form>
+
+		<form method="post" action="curso_Diseño">
+			<button>Calificaciones Diseño</button>
+		</form>
+	</div>
+</body>
+</html>
+

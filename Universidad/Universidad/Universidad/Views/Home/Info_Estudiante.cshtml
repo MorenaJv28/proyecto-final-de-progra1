@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+    object pasaId = Model[0];
+
+    int id = Convert.ToInt32(pasaId);
+}
+
+@model List<Object>
+
+<style>
+    body {
+        background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    table {
+        background-color: rgba(255, 255, 255, 0.8);
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+
+    th, td {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+    a {
+        display: block;
+        margin: 10px;
+        color: #fff;
+        background-color: #003C71;
+        padding: 10px;
+        text-decoration: none;
+        text-align: center;
+        border-radius: 100px;
+    }
+</style>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Fecha De Nacimiento</th>
+                <th>Correo Electronico</th>
+                <th>Codigo Postal</th>
+                <th>Numero De Telefono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Model[0]</td>
+                <td>@Model[1]</td>
+                <td>@Model[2]</td>
+                <td>@Model[3]</td>
+                <td>@Model[4]</td>
+                <td>@Model[5]</td>
+                <td>@Model[6]</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="@Url.Action("Calificaciones_progra", "home", new { pasarrId = id })">Ver calificaciones de Programacion</a>
+
+    <a href="@Url.Action("Calificaciones_mate", "home", new { pasarrId = id })">Ver calificaciones de Matematicas</a>
+
+    <a href="@Url.Action("Calificaciones_diseño", "home", new { pasarrId = id })">Ver calificaciones de Diseño</a>
+</body>
+

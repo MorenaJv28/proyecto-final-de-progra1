@@ -1,0 +1,84 @@
+﻿@page
+
+
+@{
+   
+}
+<style>
+    body {
+        background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .formulario {
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        width: 300px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto; /* Agregado para centrar horizontalmente */
+    }
+
+        .formulario input[type="text"],
+        .formulario input[type="date"] {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+
+        .formulario button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: auto;
+    }
+</style>
+
+
+<body>
+    <img class="logo" src="https://th.bing.com/th/id/R.8ba969f7a029a933c767946d36a89289?rik=zNfGk6haYZrxJQ&riu=http%3a%2f%2fraices.edu.sv%2fimages%2fUNAB%2flogo-UNAB-VERTICAL-transparente_peq.png&ehk=EeZ9DjZ7hm9EiMpvchBFypGVgZ14BpYyxfAkNgqXjp4%3d&risl=&pid=ImgRaw&r=0" alt="Logo UNAB">
+
+    <div class="formulario">
+        <form method="post" action="Registro">
+
+            <p>Nombre:</p>
+            <input type="text" name="nombre" />
+
+            <p>Correo:</p>
+            <input type="text" name="correo" />
+
+            <p>Fecha de nacimiento</p>
+            <input type="date" name="fecha" id="fecha" />
+
+            <p>Edad</p>
+            <input type="text" name="edad" />
+
+            <p>Postal:</p>
+            <input type="text" name="postal" />
+
+            <p>Telefono:</p>
+            <input type="text" name="telefono" />
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>

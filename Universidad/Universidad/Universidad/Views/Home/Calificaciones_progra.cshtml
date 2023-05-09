@@ -1,0 +1,91 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+ 
+}
+
+@model List<decimal?>
+
+
+<style>
+    body {
+        background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .formulario {
+    background-color: rgba(255, 255, 255, 0.5); /* Cambia el valor de opacidad aquí */
+    padding: 20px;
+    width: 800px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+
+    .formulario input[type="text"],
+    .formulario input[type="date"] {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    .formulario {
+        background-color: rgba(255, 255, 255, 0.5); /* Cambia el valor de opacidad aquí */
+        padding: 20px;
+        width: 800px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centrar horizontalmente */
+        justify-content: center; /* Centrar verticalmente */
+        margin: 0 auto; /* Centrar horizontalmente */
+        margin-top: 50px; /* Ajustar el margen superior según sea necesario */
+        text-align: center; /* Centrar el contenido horizontalmente */
+    }
+
+    .logo {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 100px;
+        height: auto;
+    }
+</style>
+
+<body>
+    <img class="logo" src="https://th.bing.com/th/id/R.8ba969f7a029a933c767946d36a89289?rik=zNfGk6haYZrxJQ&riu=http%3a%2f%2fraices.edu.sv%2fimages%2fUNAB%2flogo-UNAB-VERTICAL-transparente_peq.png&ehk=EeZ9DjZ7hm9EiMpvchBFypGVgZ14BpYyxfAkNgqXjp4%3d&risl=&pid=ImgRaw&r=0" alt="Logo UNAB">
+
+    <div class="formulario">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nota Examen 1</th>
+                    <th>Nota Examen 2</th>
+                    <th>Nota Examen 3</th>
+                    <th>Nota Final</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @for (int i = 0; i < Model.Count; i += 4)
+                {
+                    <tr>
+                        <td>@Model[i]?.ToString("0.00")</td>
+                        <td>@Model[i + 1]?.ToString("0.00")</td>
+                        <td>@Model[i + 2]?.ToString("0.00")</td>
+                        <td>@Model[i + 3]?.ToString("0.00")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>

@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<Profesore>
+<style>
+    .contenedor-cajas {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .caja {
+        background-color: rgba(242, 242, 242, 0.5);
+        padding: 10px;
+        width: 400px;
+        margin: 10px;
+    }
+
+    body {
+        background-image: url("https://portal.unab.edu.sv/assets/img/login-bg.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .logo {
+        display: block;
+        margin: 0 auto;
+        max-width: 200px;
+        height: auto;
+    }
+</style>
+
+<body>
+    <img src="https://th.bing.com/th/id/R.8ba969f7a029a933c767946d36a89289?rik=zNfGk6haYZrxJQ&riu=http%3a%2f%2fraices.edu.sv%2fimages%2fUNAB%2flogo-UNAB-VERTICAL-transparente_peq.png&ehk=EeZ9DjZ7hm9EiMpvchBFypGVgZ14BpYyxfAkNgqXjp4%3d&risl=&pid=ImgRaw&r=0" alt="Logo" width="150" height="100">
+    <div class="contenedor-cajas">
+        @foreach (var i in Model)
+        {
+            <div class="caja">
+                <p>Profesores</p>
+                <p>Nombre: @i.Nombre</p>
+                <p>Edad: @i.Edad</p>
+                <p>Correo: @i.CorreoElectronico</p>
+                <p>Codigo Postal: @i.CodigoPostal</p>
+                <p>Numero de telefono: @i.NumeroTelefono</p>
+                <p>Asignatura: @i.Asignatura</p>
+            </div>
+        }
+    </div>
+</body>
+
+
+
+

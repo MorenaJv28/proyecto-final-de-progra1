@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Universidad
+build_property.RootNamespace = Universidad
+build_property.ProjectDir = C:\Users\marlo\OneDrive\Escritorio\Programacion\Universidad\Universidad\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\marlo\OneDrive\Escritorio\Programacion\Universidad\Universidad
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Asignaturas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBc2lnbmF0dXJhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Calificaciones_diseño.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxpZmljYWNpb25lc19kaXNlw7FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Calificaciones_mate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxpZmljYWNpb25lc19tYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Calificaciones_progra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYWxpZmljYWNpb25lc19wcm9ncmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/curso_Diseño.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdXJzb19EaXNlw7FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/curso_Matematicas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdXJzb19NYXRlbWF0aWNhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/curso_Programacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjdXJzb19Qcm9ncmFtYWNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/elegir_curso_calificacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbGVnaXJfY3Vyc29fY2FsaWZpY2FjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/elegir_estudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxlbGVnaXJfZXN0dWRpYW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Info_Estudiante.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmZvX0VzdHVkaWFudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Home/Registrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/marlo/OneDrive/Escritorio/Programacion/Universidad/Universidad/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-rn1czy128z
